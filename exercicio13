@@ -1,0 +1,18 @@
+salario = float (input('digite o seu salário por hora = '))
+horas = int (input('digite o número de horas trabalhadas no mês = '))
+
+calculo = ((salario / 2) + salario)* horas
+
+
+salariototal = salario * horas
+
+
+if horas >= 160 :
+    
+    print ('o valor total do salário neste mês é =', salariototal)
+else :
+    extra = (horas - 160) * (salario * 1.5)
+    
+    salariototal2 = salariototal + extra
+    
+    print ('o valor total do salário neste mês é =', salariototal2)
