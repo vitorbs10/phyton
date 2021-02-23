@@ -1,0 +1,6 @@
+numero = int(input (' digite o número = '))
+
+if numero >	20: 
+    print (numero/2)
+else :
+    print (numero)
