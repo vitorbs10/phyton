@@ -1,0 +1,10 @@
+n1 = int (input('digite o número de maças compradas = '))
+
+
+
+
+if n1 >= 12 :
+    
+    print ('o valor total da compra é =', n1 * 1)
+else :
+    print ('o valor total da compra é =', n1 * 1.30)
