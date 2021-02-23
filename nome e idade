@@ -1,0 +1,11 @@
+nome1 =   input ('qual o nome da primeira pessoa? ')
+idade1 =  int (input ('qual a idade da primeira pessoa? '))
+
+nome2 =   input ('qual o nome da segunda pessoa? ')
+idade2 = int (input ('qual a idade da segunda pessoa? '))
+
+calculo = (idade1 + idade2)
+
+resultado = ('a idade de {} e {} somadas é {} ' .format(nome1 ,nome2, calculo))
+
+print (resultado)
