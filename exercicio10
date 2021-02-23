@@ -1,0 +1,11 @@
+1 = float (input('digite a primeira nota = '))
+n2 = float (input('digite a segunda nota = '))
+n3 = float (input('digite a terceira nota = '))
+n4 = float (input('digite a quarta nota =' ))
+
+calculo = (n1 + n2 + n3 + n4) / 4
+
+if calculo > 8 :
+    print ('SUA NOTA É', calculo,'E VOCÊ ESTÁ APROVADO!')
+else :
+    print ('SUA NOTA É', calculo,'E VOCÊ ESTÁ REROVADO!')
